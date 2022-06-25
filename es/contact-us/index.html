@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" class="no-js">
+<html lang="fr" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/es',
+  remoteDataBaseUrl: 'https://odd-rdc.github.io/sdg-data/fr',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'es',
+  language: 'fr',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Contact us - Indicadores para los Objetivos de Desarrollo Sostenible</title>
+    <title>Contact us - Indicateurs pour les objectifs de développement durable</title>
 
 
 
@@ -136,7 +136,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site/assets/css/style.css?v=20220625212556">
+        <link rel="stylesheet" href="/sdg-site/assets/css/style.css?v=20220625214954">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -150,23 +150,23 @@ var translations = {
         
 
     </head>
-<body class="language-es
+<body class="language-fr
 layout-page
 ">
 <!-- <div class="container"> -->
 
 
 
-<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo. Agradecemos sus <a href=\"mailto:%email_contacts.suggestions\">comentarios</a>.","enable_high_contrast":"Habilitar alto contraste","high_contrast":"Alto contraste","internet_explorer_message":"Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Microsoft está eliminando Internet Explorer. Por lo tanto, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe utilizar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, póngase en contacto con su equipo de asistencia informática.","internet_explorer_message_title":"Este navegador de Internet ya no es compatible","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Menú de alternancia. Haga clic para ampliar o reducir el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"contraste standard","disable_high_contrast":"Désactiver le contraste élevé","disclaimer":"Ceci est un site web en développement. Nous apprécions vos <a href=\"mailto:%email_address\">commentaires</a>.","enable_high_contrast":"Activer le contraste élevé","high_contrast":"contraste élevé","skip_link":"Passer au contenu principal","tag_line":"17 objectifs pour transformer notre monde","toggle_menu":"Interrupteur du menu. Cliquez pour développer ou réduire le menu.","toggle_search":"Interrupteur de la barre. Cliquez pour développer ou réduire la barre de recherche."};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Passer au contenu principal</a>
 <div id="disclaimer">
     
 <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alfa</strong>
+    <strong class="phase-tag">Alpha</strong>
     
-    Este es un sitio web de desarrollo. Agradecemos sus <a href="mailto:%email_contacts.suggestions">comentarios</a>.
+    Ceci est un site web en développement. Nous apprécions vos <a href="mailto:test@example.com">commentaires</a>.
     
   </div>
 </div>
@@ -176,8 +176,8 @@ layout-page
 <header role="banner" class="">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="navbar-brand" href="/sdg-site/es/" id="home">
-    <img src="/sdg-site/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Objetivos para transformar nuestro mundo" />
+            <a class="navbar-brand" href="/sdg-site/" id="home">
+    <img src="/sdg-site/assets/img/SDG_logo.png" alt="Objectifs de développement durable - 17 objectifs pour transformer notre monde" />
 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -185,25 +185,25 @@ layout-page
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/sdg-site/es/goals">Objetivos</a>
+    <a class="nav-link" href="/sdg-site/goals">Objectifs</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-site/es/reporting-status">Estado de informes</a>
+    <a class="nav-link" href="/sdg-site/reporting-status">Statut de rapport</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-site/es/about">Acerca de</a>
+    <a class="nav-link" href="/sdg-site/about">À propos</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-site/es/faq">FAQ</a>
+    <a class="nav-link" href="/sdg-site/faq">FAQ</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-site/es/news">Actualizaciones</a>
+    <a class="nav-link" href="/sdg-site/news">Mises à jour</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
-                    <form class="align-self-lg-end" id="search" action="/sdg-site/es/search/">
+                    <form class="align-self-lg-end" id="search" action="/sdg-site/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Buscar</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Buscar">
+        <label class="visually-hidden" for="indicator_search">Chercher</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Chercher">
         <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Buscar" id="search-btn" type="submit">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Chercher" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
             </button>
         </span>
@@ -222,10 +222,10 @@ layout-page
   <div class="btn-group language-toggle-dropdown  dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="fa fa-globe"></i>
-      Español
+      Français
     </button>
     <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/sdg-site/contact-us/">
+            <a class="dropdown-item" href="/sdg-site/en/es/contact-us/">
               English
             </a>
           </li></ul>
@@ -233,7 +233,7 @@ layout-page
 </div>
 
 
-<a title="Habilitar alto contraste" aria-label="Habilitar alto contraste"
+<a title="Activer le contraste élevé" aria-label="Activer le contraste élevé"
     data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -269,11 +269,11 @@ data-event-label="high"
                 <div id="footerLinks">
                     <ul>
                         <li>
-                            <a href="https://open-sdg.org">Construido usando Open SDG</a>
+                            <a href="https://open-sdg.org">Créé en utilisant Open SDG</a>
                         </li>
                         
                         <li>
-                            <a href="/sdg-site/es/contact-us">Contáctenos</a>
+                            <a href="/sdg-site/contact-us">Contactez-nous</a>
                             
                         </li>
                         <li>
@@ -287,14 +287,14 @@ data-event-label="high"
                             
                         </li>
                         <li>
-                            <a href="/sdg-site/es/about/cookies-and-privacy/">Galletas</a>
+                            <a href="/sdg-site/about/cookies-and-privacy/">Cookies</a>
                             
                         </li>
                         
                         
                         
                         <li>
-                            <a href="/sdg-site/es/config">Configuration</a>
+                            <a href="/sdg-site/config">Configuration</a>
                         </li>
                         </ul>
                 </div>
@@ -329,17 +329,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'Ocultar';</script>
+    translations['general']['hide'] = 'masquer';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Buscar';</script>
+    translations['search']['search'] = 'Chercher';</script>
 
-<script src='/sdg-site/assets/js/sdg.js?v=20220625212556'></script>
+<script src='/sdg-site/assets/js/sdg.js?v=20220625214954'></script>
 
 
     
     
-    <script src="/sdg-site/assets/js/custom.js?v=20220625212556"></script><script>
+    <script src="/sdg-site/assets/js/custom.js?v=20220625214954"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
